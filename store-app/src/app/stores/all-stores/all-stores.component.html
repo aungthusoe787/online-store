@@ -1,0 +1,47 @@
+<div class="filter-box">
+  <mat-form-field style=" margin: 5px 5px;">
+    <mat-label>Search...name,category</mat-label>
+    <input matInput type="text" [formControl]="searchControl">
+    <button  matSuffix mat-icon-button aria-label="Clear" (click)="searchStore()">
+      <mat-icon>search</mat-icon>
+    </button>
+  </mat-form-field>
+  <div style=" margin: 5px 5px;">
+    <mat-paginator [length]="totalRecords"
+    [pageSize]="pageSize"
+    [pageSizeOptions]="[3, 6, 9, 12]"
+    [pageIndex]="pageIndex"
+    (page)="handlePageEvent($event)"
+    aria-label="Select page">
+    </mat-paginator>
+  </div>
+ 
+</div>
+
+
+<div class="add-box">
+  <a mat-raised-button color="primary" [routerLink]="['/add']" routerLinkActive="router-link-active" > ADD Store</a>
+ </div>
+<div class="card-container">
+    <mat-card class="example-card" *ngFor="let item of allStores">
+        <mat-card-header>
+          <mat-card-title>{{item.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="{{item.image}}" >
+        <mat-card-content>
+          <p>
+            {{item.category}} , {{item.description}} 
+          </p>
+          <p>
+            {{item.address}} 
+          </p>
+          <p>
+            Email: {{item.email}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <a mat-raised-button color="primary" [routerLink]="['/edit',item.id]" >Edit</a> | 
+          <button mat-raised-button color="primary" (click)="deleteItem(item.id)">Delete</button>
+        </mat-card-actions>
+      </mat-card>
+</div>

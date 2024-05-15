@@ -1,0 +1,54 @@
+{
+   "stores": [
+        {
+            "id": "31647627398959844468704267958",
+            "name": "Java",
+            "description": "Java Programming Langauge",
+            "email": "aung@gmail.com",
+            "image": "https://www.gstatic.com/webp/gallery/1.jpg",
+            "category": "IT book",
+            "address": "Yangon, Myanmar",
+            "geolocation": "33434.34343"
+        },
+        {
+            "id": "31647636797315227183506606699",
+            "name": "Python",
+            "description": "Python Programming Langauge",
+            "email": "soe@gmail.com",
+            "image": "https://www.gstatic.com/webp/gallery/1.jpg",
+            "category": "IT book",
+            "address": "Yangon, Myanmar",
+            "geolocation": "33434.5656556"
+        },
+        {
+            "id": "31647637018676156068021226092",
+            "name": "C",
+            "description": "C Programming Langauge",
+            "email": "thu@gmail.com",
+            "image": "https://www.gstatic.com/webp/gallery/1.jpg",
+            "category": "IT book",
+            "address": "Yangon, Myanmar",
+            "geolocation": "33434.5656556"
+        },
+        {
+            "id": "31647637240037084952535845485",
+            "name": "Go",
+            "description": "Golang Programming Langauge",
+            "email": "soethu@gmail.com",
+            "image": "https://www.gstatic.com/webp/gallery/1.jpg",
+            "category": "IT book",
+            "address": "Yangon, Myanmar",
+            "geolocation": "33434.5656556"
+        },
+        {
+          "id": "31647637240037344952535845485",
+          "name": "Coffee",
+          "description": "Golang Programming Langauge",
+          "email": "aungsoe@gmail.com",
+          "image": "https://www.gstatic.com/webp/gallery/1.jpg",
+          "category": "Java",
+          "address": "Yangon, Myanmar",
+          "geolocation": "33434.5656556"
+      }
+      ]
+  }

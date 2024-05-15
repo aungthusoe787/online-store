@@ -1,0 +1,26 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.example-card {
+    max-width: 300px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.add-box{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+
+.filter-box{
+    display: flex;
+    margin: 15px;
+    background-color: gray;
+}
+
+
+

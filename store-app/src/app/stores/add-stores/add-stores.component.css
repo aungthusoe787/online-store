@@ -1,0 +1,15 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    column-gap: 2rem;
+}
+
+.card{
+    width: 800px;
+}
